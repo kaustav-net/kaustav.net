@@ -14,7 +14,7 @@ footer,
 }
 
 .nav {
-  box-shadow: 0 3px 4px -2px $shadow-color;
+  box-shadow: 0 3px 7px -2px $shadow-color;
   overflow: auto;
 
   &-container {
@@ -87,6 +87,6 @@ footer {
 
   span {
     color: $default-color;
-    font-size: .8rem;
+    font-size: 1.1rem;
   }
 }

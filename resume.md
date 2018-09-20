@@ -27,7 +27,7 @@ DBMS/MySQL/Oracle, Bootstrap, JQUERY, AJAX, .NET framework
 # Experiences
 * ### Tonbo Imaging (Member of Technical Stuff) <br><sup>January, 2018 - Present</sup>
     * Optimise and improve the live video stream from thermal cameras using GStreamer
-    * Optimise AOSP for embedded devices
+    * Optimise AOSP for Snapdragon 210 (MSM8909) 
     * Develop new features for existing android application used with the defence grade thermal cameras
 
 * ### Tata Consultancy Services (System Engineer) <br><sup>July, 2015 - January, 2018</sup>
