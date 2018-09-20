@@ -20,9 +20,9 @@ Software developer with more than 3 years of professional experience, having sou
 
 # Skills and Proficiency
 * **Languages known:** ​ Java , C, C#, HTML5/CSS3, XML, JavaScript, SQL
-* **Technologies:​** AOSP, Android app development, GStreamer, Servlet/JSP/JSF, JDBC,
+* **OS fundamentals:​** Linux, Android Open Source Project
+* **Technologies:​** Android app development, GStreamer, Servlet/JSP/JSF, JDBC,
 DBMS/MySQL/Oracle, Bootstrap, JQUERY, AJAX, .NET framework
-* **Platforms:​** Linux/UNIX, Android
 
 # Experiences
 * ### Tonbo Imaging (Member of Technical Stuff) <br><sup>January, 2018 - Present</sup>
