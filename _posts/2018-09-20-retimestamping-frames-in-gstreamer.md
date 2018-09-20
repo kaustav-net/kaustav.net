@@ -53,7 +53,7 @@ static void cb_identity_handoff (GstElement *identity, GstBuffer *buffer, Custom
 }
 {% endhighlight %}
 
-A simple formula is used in the above code. If the `FPS` is `30`, then in ideal scenario, each frame duration should be `1/30 sec`. Let's say that we set the `PTS` and `DTS` of the first frame to `0`. Then this frame should be displayed till it's duration i.e. `1/30sec`. Next comes the second frame. So, the `PTS` and `DTS` of the second frame should be `0 + (1/30)`. The duration of the second frame will also be `1/30sec`. And this logic goes on for the next frames as well.
+A simple formula is used in the above code. If the `FPS` is `30`, then in ideal scenario, each frame duration should be `1/30 sec`. Let's say that we set the `PTS` and `DTS` of the first frame to `0`. Then this frame should be displayed till it's duration i.e. `1/30sec`. Next comes the second frame. So, the `PTS` and `DTS` of the second frame should be `0 + (1/30)`. The duration of the second frame will also be `1/30sec`. And this same logic applies to the upcoming frames.
 
 So, the formulas for the values of `PTS`, `DTS` and frame `duration` are
 
