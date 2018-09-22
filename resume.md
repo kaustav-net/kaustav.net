@@ -33,7 +33,7 @@ DBMS/MySQL/Oracle, Bootstrap, JQUERY, AJAX, .NET framework
 * ### Tata Consultancy Services (System Engineer) <br><sup>July, 2015 - January, 2018</sup>
     * Work mainly based on Java and PL/SQL
     * Developed a highly functional UI template for a set of applications using Bootstrap and Primefaces
-    * Developd and maintained several features of their existing as well as new web applications
+    * Developed and maintained several features of their existing as well as new web applications
 
 * ### ConfirmTKT.com (Internship) <br><sup>Aug, 2014 - Feb, 2015</sup>
     * Made the Windows Phone version of their existing Android app on predicting Railway ticket status single handedly
