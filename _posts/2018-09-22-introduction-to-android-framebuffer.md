@@ -390,7 +390,7 @@ The parameter `fb_info` describes the framebuffer driver information of a specif
 The registration process is to store the specified device driver information `fb_info` in the `registered_fb` array. Therefore, when registering a specific `fb_info`, first construct an `fb_info` data structure and initialize the data structure, which is used to describe a specific framebuffer driver.
 
 ## fbX device file opening process
-`fb_open` opens the device file fb0 corresponding to the following operation:
+`fb_open` opens the device file `fb0` corresponding to the following operation:
 
 {% highlight c linenos %}
 static int fb_open(struct inode *inode, struct file *file)
@@ -635,4 +635,4 @@ static long do_fb_ioctl(struct fb_info *info, unsigned int cmd,unsigned long arg
 ## Summary
 1. `fb_info` structure describes a framebuffer device
 2. Call the interface function `register_framebuffer` provided by the framebuffer driver module to register the framebuffer device
-3. The operation process of the framebuffer device file is:  firstly, the framebuffer driver function is executed, then the registered `fb_info` is obtained according to the minor device number of the registered frame buffer device, and finally the operation function of the specific frame buffer device is called
+3. The operation process of the framebuffer device file is:  firstly, the framebuffer driver function is executed, then the registered `fb_info` is obtained according to the minor device number of the registered framebuffer device, and finally the operation function of the specific framebuffer device is called
