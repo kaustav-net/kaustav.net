@@ -26,9 +26,10 @@ DBMS/MySQL/Oracle, Bootstrap, JQUERY, AJAX, .NET framework
 
 # Experiences
 * ### Tonbo Imaging (Member of Technical Stuff) <br><sup>January, 2018 - Present</sup>
-    * Optimise and improve the live video stream from thermal cameras using GStreamer
-    * Optimise AOSP for Snapdragon 210 (MSM8909) 
-    * Develop new features for existing android application used with the defence grade thermal cameras
+   * Optimise Android OS (AOSP) for Snapdragon 210 (MSM8909) 
+   * Develop new custom features in Android Framework
+   * Optimise and improve the live video stream from thermal cameras using GStreamer
+   * Develop new features for existing android application used with the defense grade thermal cameras
 
 * ### Tata Consultancy Services (System Engineer) <br><sup>July, 2015 - January, 2018</sup>
     * Work mainly based on Java and PL/SQL
@@ -50,7 +51,11 @@ Birati High School (West Bengal Council of Higher Secondary Education)
 * ### 10th Grade (Percentage: 87.125%) <br><sup>2009</sup>
 Birati High School (West Bengal Board of Secondary Education)
 
-# Projects
+# Personal Projects
+* ### AOSP for Snapdragon 210 and Snapdragon 410:
+    Modified and optimised android open source project (AOSP) for screenless device. 
+* ### Port Android Oreo to Beaglebone Black(In progress):
+    Port U-Boot, linux kernel, HAL and AOSP to Beaglebone black running TI AM335x.
 * ### First Traveller (Windows Phone app):
     App created mainly using C# and XAML, to display detailed information about 100 million places across a wide range of categories, from the same database as Google Maps
 * ### Microsoft Azure Champion:
@@ -61,9 +66,3 @@ Birati High School (West Bengal Board of Secondary Education)
     This communication app is for the people who cannot talk. They can easily communicate with others by simply tapping buttons with phrases and words or typing lines. The app has some inbuilt commonly used phrases and words to communicate more easily.
 * ### Find My Place (Windows 10 app):
     The Windows 10 app can give you details about any place in this world. This location-aware app is also voice enabled. You can get your current location by just simply tapping a button.
-* ### To-do (App for Microsoft Office):
-    Productive app to help the user manage the to-do list while working on the Microsoft Office documents.
-* ### Sticky Note (App for Microsoft Office):
-    This easy to use app helps the user to remember small things effectively while working on the Microsoft Office documents.
-* ### My city Kolkata (Windows Phone app):
-    This app acts as a virtual travel guide to help the travelers to navigate the City of Joy
