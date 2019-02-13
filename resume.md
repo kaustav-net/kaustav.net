@@ -6,7 +6,7 @@ comments: false
 ---
 
 # Profile Summary
-Software developer with more than 3 years of professional experience, having sound knowledge in several programming languages like Java, C, C# with very good understanding of core Computer Science fundamentals.
+Software developer with more than 3 years of professional experience, mainly focused on Android Open Source Project development, having sound knowledge in several programming languages like Java, C, C# with very good understanding of core Computer Science fundamentals.
 
 # Achievements
 * Selected as the winner of On The Spot Award at TCS and got appreciation from the client for the excellent work done for them.
