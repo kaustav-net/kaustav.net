@@ -6,31 +6,33 @@ comments: false
 ---
 
 # Profile Summary
-Software developer with more than 3 years of professional experience, mainly focused on Android Open Source Project development, having sound knowledge in several programming languages like Java, C, C# with very good understanding of core Computer Science fundamentals.
+Software developer with more than 4 years of professional experience, mainly focused on Android Open Source Project development, having sound knowledge in several programming languages like Java, C, Python with very good understanding of core Computer Science fundamentals.
 
 # Certifications
 * Oracle Certified Associate, Java SE 7 Programmer
 
 # Skills and Proficiency
-* **Languages known:** Java , C/C++, Python, HTML5/CSS3, XML, JavaScript, SQL
-* **Operating Systems/ Softwares:​** Embedded Android, Embedded Linux, LK bootloader, GStreamer, Android development, GNU Make
+* **Languages known:** Java, Python, C/C++, HTML5/CSS3, XML, JavaScript, SQL
+* **Operating Systems/ Softwares:​** Embedded Android, Embedded Linux, LK bootloader, GStreamer, Android application development, GNU Make
 * **System testing tools:​** iperf, powertop, trepn, snapdragon/adreno profiler
 * **Web technologies:​** Servlet/JSP/JSF, JDBC, DBMS/MySQL/Oracle, Bootstrap, JQUERY, AJAX
 
 # Experiences
 * ### Tonbo Imaging (Member of Technical Stuff) <br><sup>January, 2018 - Present</sup>
-   * Responsibility is to optimise and add new features in Android OS (AOSP)/Linux for security thermal cameras and weapon scopes running Qualcomm Snapdragon 210 (MSM8909) 
+   * Responsibilities are to optimise and add new features in Android OS (AOSP)/Linux for security thermal cameras and weapon scopes running Qualcomm Snapdragon 210 (MSM8909) 
+   * Implemented V2X features in automotive multi-sensor camera system 
+   * Implemented live video streaming with 0sec latency in automotive multi-sensor camera system using Gstreamer 
    * Introduced interface for thermal imaging to the Android OS
    * Optimised CPU, GPU, RAM performance for thermal image processing
    * Implemented and optimised different types of over-the-air OS updates for different types of products
-   * Optimised live video streaming
+   * Optimised live video streaming from weapon scopes
    * Wrote hardware and software functional tests for thermal cameras to validate system (software and hardware) performance using real and simulated data
    * Implemented full system recovery mechanism from bootloader
    * Developed new features for existing android application used with the defense grade thermal cameras
 
 
 * ### Tata Consultancy Services (System Engineer) <br><sup>July, 2015 - January, 2018</sup>
-    * Responsibility was to develop and maintain several features of their existing as well as new web applications
+    * Responsibilites were to develop and maintain several features of their existing as well as new web applications
     * Work mainly based on Java and PL/SQL
     * Developed a highly functional UI template for a set of applications using Bootstrap and Primefaces
 
@@ -54,7 +56,7 @@ Birati High School (West Bengal Board of Secondary Education)
 # Achievements
 * Selected as the winner of On The Spot Award at TCS and got appreciation from the client for the excellent work done for them.
 * Was awarded the STAR performer of the batch in TCS Initial Learning Program.
-* I am a competent tier member of Microsoft (India) App Builders Club.
+* Was a competent tier member of Microsoft (India) App Builders Club.
 * Was a Microsoft (India) Student Partner.
 * Was a Firefox Student Ambassador.
 
