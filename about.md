@@ -19,3 +19,5 @@ I have deep understanding about **linux mobile display subsystem**, **linux inpu
 In my spare time you'll find me watching football matches (big fan of _FC Barcelona_), listening to music and playing video games. I can speak in English, Bengali and Hindi.
 
 Earlier, I was working for [Tata Consultancy Services](https://www.tcs.com/) and was interning at [Confirmtkt](https://www.confirmtkt.com/). 
+
+In case you were wondering, the profile photo was captured from one of the thermal cameras which we have built at Tonbo Imaging.
