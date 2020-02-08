@@ -81,7 +81,7 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
+  font-family: $sans-serif;
   padding: 2rem 0;
   text-align: center;
 
@@ -90,4 +90,33 @@ footer {
     opacity: .6;
     font-size: 1rem;
   }
+}
+
+.social-media {
+  text-align: center;
+}
+
+.fa {
+  padding: .5rem;
+  font-size: 2rem;
+  width: 3rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 2px 1.2rem;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  text-decoration: none !important;
+  opacity: 0.6;
+}
+
+.fa-github {
+background: black;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
 }
