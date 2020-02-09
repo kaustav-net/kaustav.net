@@ -81,7 +81,7 @@ footer,
 }
 
 footer {
-  font-family: $avenir;
+  font-family: $quicksand;
   padding: 2rem 0;
   text-align: center;
 
@@ -112,11 +112,46 @@ footer {
 }
 
 .fa-github {
-background: black;
-color: white;
+  background: black;
+  color: white;
 }
 
 .fa-linkedin {
-background: #007bb5;
-color: white;
+  background: #007bb5;
+  color: white;
+}
+
+.blinking {
+  -webkit-animation: 1s blink ease infinite;
+  -moz-animation: 1s blink ease infinite;
+  -ms-animation: 1s blink ease infinite;
+  -o-animation: 1s blink ease infinite;
+  animation: 1s blink ease infinite;
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}
+
+@include keyframes(blink) {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  } 
 }
