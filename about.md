@@ -16,7 +16,7 @@ My name is **Kaustav Ghosh** and I'm a **Software Engineer** from India, current
 
 I have deep understanding about **linux mobile display subsystem**, **linux input subsystem** and **android boot process**. I love to use `Java`, but admire the power of `C`.
 
-In my spare time you'll find me watching football matches (big fan of _FC Barcelona_), listening to music and playing video games. I can speak in English, Bengali and Hindi.
+In my spare time you'll find me watching football matches (a big fan of FC Barcelona), listening to music and playing video games. I can speak in English, Bengali and Hindi.
 
 Earlier, I was working for [Tata Consultancy Services](https://www.tcs.com/) and was interning at [Confirmtkt](https://www.confirmtkt.com/). 
 
