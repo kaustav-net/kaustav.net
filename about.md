@@ -12,9 +12,9 @@ comments: false
     <a href="https://www.linkedin.com/in/kaustav28" target="_blank" class="fa fa-linkedin"></a>
 </div>
 
-My name is **Kaustav Ghosh** and I'm a **Software Engineer** from India, currently working at [Tonbo Imaging](https://tonboimaging.com). I am passionate about **Android Open Source Project** and **Linux Kernel**. Over the past few years, I have also worked on **web and mobile application development**. 
+Hello, my name is **Kaustav Ghosh** and I'm a **Software Engineer** from India. Currently, I'm working at [Tonbo Imaging](https://tonboimaging.com). I am passionate about **Android Open Source Project** and **Linux Kernel**. Over the past few years, I have also worked on **web and mobile application development**. 
 
-I have deep understanding about **linux mobile display subsystem**, **linux input subsystem** and **android boot process**. I love to use `Java`, but admire the power of `C`.
+Currently, I am based out of Vilnius, Lithuania.
 
 In my spare time you'll find me watching football matches (a big fan of FC Barcelona), listening to music and playing video games. I can speak in English, Bengali and Hindi.
 
