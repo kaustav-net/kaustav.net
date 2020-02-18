@@ -61,12 +61,10 @@ Birati High School (West Bengal Board of Secondary Education)
 * Was a Firefox Student Ambassador.
 
 # Personal Projects
-* ### Port Latest Android and Linux to Beagleboard X15:
-    Ported AOSP (Android  9), Linux (version 4.19), HAL and U-Boot to Beagleboard X15 running TI AM5728. 
-* ### Port Android 8 to Beaglebone Black:
-    Ported U-Boot, Linux kernel (version 4.14), HAL and AOSP (Android 8) to Beaglebone black running TI AM335x.
-* ### AOSP for Snapdragon 210:
-	Modified and optimised AOSP for screenless device.
+* ### Surveillance camera using embedded Android (AOSP):
+    Customized Android (version 9) to make a 24/7 active video surveillance camera with Beagleboard X15 running TI AM5728. Features include live RTSP video streaming using GStreamer, GNSS support, commands API for clients. 
+* ### Embedded Android (AOSP) for Snapdragon 410:
+	Modified and optimised AOSP for screenless devices.
 * ### Speaking Horizon (Windows Phone app):
     A speech synthesizer app to make communication easier for the people who cannot talk.
 * ### Fit X (Android app):
