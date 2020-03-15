@@ -25,10 +25,13 @@ footer,
 
   &-title {
     @include transition(all .2s ease-out);
-    color: $default-color;
+    // color: $default-color;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
+    font-family: $roboto-slab;
+    font-weight: bold;
+    font-size: 1.45em;
 
     &:hover,
     &:focus {
@@ -61,7 +64,7 @@ footer,
   }
 
   a {
-    color: $default-color;
+    color: black;
     font-family: $sans-serif;
   }
 }
