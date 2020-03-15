@@ -155,3 +155,9 @@ footer {
     opacity: 1;
   } 
 }
+
+// cookie consent popup style overwrite
+.cc-window {
+  font-family: $roboto;
+  font-size: .9em;
+}
