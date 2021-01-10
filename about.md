@@ -12,12 +12,10 @@ comments: false
     <a href="https://www.linkedin.com/in/kaustav28" target="_blank" class="fa fa-linkedin"></a>
 </div>
 
-Hello, my name is **Kaustav Ghosh** and I'm a **Software Engineer** from India. Currently, I'm working at [Tonbo Imaging](https://tonboimaging.com). I am passionate about **Android Open Source Project** and **Linux Kernel**. Over the past few years, I have also worked on **web and mobile application development**. 
+Hello, my name is **Kaustav Ghosh** and I'm a **Software Engineer** from India. Currently, I'm working at [Microsoft](https://microsoft.com/) in Tallinn. I am passionate about **real-time video communication**, **Android Open Source Project**, and **Linux**. Over the past few years, I have also worked on **web and mobile application development**. 
 
-Currently, I am based out of Vilnius, Lithuania.
+In my spare time, you'll find me watching football matches (a big fan of FC Barcelona), listening to music, and playing video games. I can speak English, Bengali, and Hindi. Recently I joined a language class to learn Estonian.
 
-In my spare time you'll find me watching football matches (a big fan of FC Barcelona), listening to music and playing video games. I can speak in English, Bengali and Hindi.
+Earlier, I worked at [Tonbo Imaging](https://tonboimaging.com/), and [Tata Consultancy Services](https://www.tcs.com/) and was an intern at [Confirmtkt](https://www.confirmtkt.com/). 
 
-Earlier, I was working for [Tata Consultancy Services](https://www.tcs.com/) and was interning at [Confirmtkt](https://www.confirmtkt.com/). 
-
-In case you were wondering, the profile photo was captured from one of the thermal cameras which we have built at Tonbo Imaging.
+In case you were wondering, the profile photo was captured from one of the thermal cameras which we built at Tonbo Imaging.
