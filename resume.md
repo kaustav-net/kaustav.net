@@ -50,7 +50,7 @@ comments: false
 * 10th Grade (Percentage: 87.125%) <br>Birati High School (West Bengal Board of Secondary Education) • 2009
 
 # Achievements
-* Moved to Vilnius, Lithuania, to be the first members setting up the Tonbo Imaging UAB R&D center.
+* Was one of the first members to set up the Tonbo Imaging R&D center in Vilnius, Lithuania.
 * Selected as the winner of On The Spot Award at TCS and got appreciation from the client for the excellent work done for them.
 * Was awarded the STAR performer of the batch in TCS Initial Learning Program.
 * Was a competent tier member of Microsoft (India) App Builders Club.
