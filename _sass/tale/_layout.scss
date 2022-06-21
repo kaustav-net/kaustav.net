@@ -32,7 +32,8 @@ footer,
     font-family: $roboto-slab;
     font-weight: bold;
     font-size: 1.45em;
-
+    text-shadow: 3px 3px #fce601;
+    
     &:hover,
     &:focus {
       opacity: .6;
