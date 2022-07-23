@@ -5,6 +5,13 @@ permalink: /resume/
 comments: false
 ---
 
+<div class="page-top-links">
+    <a href="/assets/Kaustav_Ghosh_Resume_video.pdf" alt="Resume download" download class="fa-stack page-link">
+        <i class="fa-solid fa-circle fa-stack-2x"></i>
+        <i class="fa-solid fa-download fa-stack-1x fa-inverse yellow-font"></i>
+    </a>
+</div>
+
 # Skills and Proficiency
 * **Languages known:** Java, Python, C/C++, HTML5/CSS3, XML, JavaScript, SQL
 * **Technologies:​** Real-Time Communication, WebRTC, RTP/RTCP protocol, H.264 codec, GStreamer, Embedded Android (AOSP), Embedded Linux, LK bootloader, Android SDK, Android NDK, JNI, V2X, API design, Full-stack web development, Git/Github
@@ -13,14 +20,14 @@ comments: false
 
 # Experiences
 * ### Microsoft (Software Engineer 2) <br><sup>Tallinn, Estonia • November, 2020 - Present</sup> 
-    * Main responsibility is to improve the experience in real-time video communication on various Microsoft products including MS Teams and Skype.
+    * Main responsibility is to improve the experience in real-time video communication on various Microsoft products including Microsoft Teams and Skype.
     * Improved video freezes in 1:1 and group video calls significantly by improving the packet loss calculation.
     * Wrote a functional test framework to catch bugs early in the product life cycle.
     * Optimized and implemented highly complex features(e.g., simulcast) involving RTP protocol and H.264 codec level changes to greatly improve the video experience.
 
 * ### Tonbo Imaging UAB (Member of Technical Stuff) <br><sup>Vilnius, Lithuania • April, 2019 - October, 2020</sup> 
    * Implemented V2X features (CAM, DENM) in automotive multi-sensor camera system.
-   * Implemented live video streaming with 0sec latency in automotive multi-sensor camera system using Gstreamer.
+   * Implemented live video streaming in automotive multi-sensor camera system using Gstreamer.
    * Optimised CPU, GPU, RAM performance for thermal image processing.
 
 * ### Tonbo Imaging (Member of Technical Stuff) <br><sup>Bangalore, India • January, 2018 - April, 2019</sup>
@@ -61,8 +68,8 @@ comments: false
 * Was a Firefox Student Ambassador.
 
 # Personal Projects
-* ### Video streaming app using WebRTC native API
-    Built a C++ prototype app for real-time audio/video communication using WebRTC native API. Signaling plane was implemeted using sockets.  
+* ### RTC app using WebRTC native API
+    Built an RTC app using C++ to send and receive audio and video using WebRTC native API. The signaling plane was implemented using an HTTP server.  
 * ### Surveillance camera using embedded Android (AOSP):
     Customized Android (version 9) to make a 24/7 active video surveillance camera with Beagleboard X15 running TI AM5728. Features include live RTSP video streaming using GStreamer, GNSS support, commands API for clients. 
 * ### Speaking Horizon (Windows Phone app):

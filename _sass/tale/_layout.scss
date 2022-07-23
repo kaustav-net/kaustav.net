@@ -96,33 +96,27 @@ footer {
   }
 }
 
-.social-media {
+.yellow-font {
+  color: #fce601;
+}
+
+.page-top-links {
   text-align: center;
 }
 
-.fa {
-  padding: .5rem;
-  font-size: 2rem;
-  width: 3rem;
-  text-align: center;
+.social-link {
   text-decoration: none;
   margin: 0 2px 1.2rem;
-  border-radius: 50%;
 }
 
-.fa:hover {
+.page-link {
+  color:#353535;
+  font-size:1.5em;
+}
+
+.page-link:hover {
   text-decoration: none !important;
   opacity: 0.6;
-}
-
-.fa-github {
-  background: black;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
 }
 
 .blinking {
