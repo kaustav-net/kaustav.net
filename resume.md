@@ -7,13 +7,16 @@ comments: false
 
 # Skills and Proficiency
 * **Languages known:** Java, Python, C/C++, HTML5/CSS3, XML, JavaScript, SQL
-* **Technologies:​** WebRTC, Video streaming, Embedded Android (AOSP), Embedded Linux, LK bootloader, GStreamer, H.264 codec, Android SDK, Android NDK, V2X
+* **Technologies:​** Real-Time Communication, WebRTC, RTP/RTCP protocol, H.264 codec, GStreamer, Embedded Android (AOSP), Embedded Linux, LK bootloader, Android SDK, Android NDK, JNI, V2X, API design, Full-stack web development, Git/Github
 * **System testing tools:​** iperf, powertop, trepn, Snapdragon/Adreno profiler
 * **Web technologies:​** Servlet/JSP/JSF, JDBC, DBMS/MySQL/Oracle, Bootstrap, JQUERY, AJAX
 
 # Experiences
 * ### Microsoft (Software Engineer 2) <br><sup>Tallinn, Estonia • November, 2020 - Present</sup> 
-   * Responsibilities are to improve video experience in Microsoft Teams and Skype.
+    * Main responsibility is to improve the experience in real-time video communication on various Microsoft products including MS Teams and Skype.
+    * Improved video freezes in 1:1 and group video calls significantly by improving the packet loss calculation.
+    * Wrote a functional test framework to catch bugs early in the product life cycle.
+    * Optimized and implemented highly complex features(e.g., simulcast) involving RTP protocol and H.264 codec level changes to greatly improve the video experience.
 
 * ### Tonbo Imaging UAB (Member of Technical Stuff) <br><sup>Vilnius, Lithuania • April, 2019 - October, 2020</sup> 
    * Implemented V2X features (CAM, DENM) in automotive multi-sensor camera system.
@@ -58,10 +61,10 @@ comments: false
 * Was a Firefox Student Ambassador.
 
 # Personal Projects
+* ### Video streaming app using WebRTC native API
+    Built a C++ prototype app for real-time audio/video communication using WebRTC native API. Signaling plane was implemeted using sockets.  
 * ### Surveillance camera using embedded Android (AOSP):
     Customized Android (version 9) to make a 24/7 active video surveillance camera with Beagleboard X15 running TI AM5728. Features include live RTSP video streaming using GStreamer, GNSS support, commands API for clients. 
-* ### Embedded Android (AOSP) for Snapdragon 410:
-	Modified and optimised AOSP for screenless devices.
 * ### Speaking Horizon (Windows Phone app):
     A speech synthesizer app to make communication easier for the people who cannot talk.
 * ### Fit X (Android app):
