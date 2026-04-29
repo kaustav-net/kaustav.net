@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="about-page">
+  <header class="post-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ $img := resources.Get "profile.png" }}
+  {{ with $img }}
+  <img src="{{ .RelPermalink }}" alt="Kaustav Ghosh" class="about-photo">
+  {{ end }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
