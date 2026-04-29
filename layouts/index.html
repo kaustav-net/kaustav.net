@@ -6,19 +6,7 @@
   <section class="home-posts" aria-label="Recent posts">
     <h2>Recent Posts</h2>
     {{ range first 10 (where .Site.RegularPages "Section" "posts") }}
-    <article class="post-summary">
-      <h3>{{ if .Params.externalUrl }}<a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener">{{ .Title }} <span class="external-badge">↗ {{ with .Params.externalSite }}{{ . }}{{ else }}External{{ end }}</span></a>{{ else }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</h3>
-      <div class="post-meta">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-        {{ if not .Params.externalUrl }}<span class="reading-time">· {{ .ReadingTime }} min read</span>{{ end }}
-      </div>
-      {{ with .Description }}<p class="post-excerpt">{{ . }}</p>{{ end }}
-      {{ with .Params.tags }}
-      <div class="tags">
-        {{ range first 4 . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
-      </div>
-      {{ end }}
-    </article>
+    {{ partial "post-card.html" . }}
     {{ end }}
   </section>
   <aside class="home-sidebar" aria-label="Topics">
