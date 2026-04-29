@@ -1,0 +1,16 @@
+baseURL = 'https://kaustav.net/'
+locale = 'en-us'
+title = 'Kaustav Ghosh'
+
+[params]
+  description = 'Personal tech blog — RTC, WebRTC, Chromium, and more.'
+  author = 'Kaustav Ghosh'
+
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = false
+    guessSyntax = true
+
+[permalinks]
+  posts = '/:year/:month/:title/'

@@ -1,3 +1,17 @@
-_site/
-.sass-cache/
-.jekyll-cache/
+# Hugo build output
+public/
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Hugo lock file
+.hugo_build.lock

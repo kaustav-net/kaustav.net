@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="hero">
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+</div>
+<h2>Recent Posts</h2>
+<ul class="post-list">
+  {{ range first 10 (where .Site.RegularPages "Section" "posts") }}
+  <li>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
