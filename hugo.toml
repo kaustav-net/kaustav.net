@@ -1,10 +1,16 @@
 baseURL = 'https://kaustav.net/'
 locale = 'en-us'
 title = 'Kaustav Ghosh'
+enableRobotsTXT = true
 
 [params]
   description = 'Personal tech blog — RTC, WebRTC, Chromium, and more.'
   author = 'Kaustav Ghosh'
+  keywords = ['WebRTC', 'RTC', 'Chromium', 'bandwidth estimation', 'congestion control', 'GCC', 'video engineering']
+  images = []
+
+  [params.social]
+    github = 'https://github.com/nickaustav'
 
 [markup]
   [markup.highlight]
@@ -14,3 +20,22 @@ title = 'Kaustav Ghosh'
 
 [permalinks]
   posts = '/:year/:month/:title/'
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  section = ['HTML', 'RSS']
+  taxonomy = ['HTML']
+  term = ['HTML']
+
+[taxonomies]
+  tag = 'tags'
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false

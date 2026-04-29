@@ -1,12 +1,16 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-<ul class="post-list">
-  {{ range .Pages }}
-  <li>
+<section aria-label="Post list">
+{{ range .Pages }}
+<article class="post-summary">
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  <div class="post-meta">
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </li>
-  {{ end }}
-</ul>
+    <span class="reading-time">· {{ .ReadingTime }} min read</span>
+  </div>
+  {{ with .Description }}<p class="post-excerpt">{{ . }}</p>{{ end }}
+</article>
+{{ end }}
+</section>
 {{ end }}

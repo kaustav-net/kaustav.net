@@ -1,15 +1,24 @@
 {{ define "main" }}
-<div class="hero">
+<section class="hero">
   <h1>{{ .Site.Title }}</h1>
   <p>{{ .Site.Params.description }}</p>
-</div>
-<h2>Recent Posts</h2>
-<ul class="post-list">
+</section>
+<section aria-label="Recent posts">
+  <h2>Recent Posts</h2>
   {{ range first 10 (where .Site.RegularPages "Section" "posts") }}
-  <li>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </li>
+  <article class="post-summary">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <div class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      <span class="reading-time">· {{ .ReadingTime }} min read</span>
+    </div>
+    {{ with .Description }}<p class="post-excerpt">{{ . }}</p>{{ end }}
+    {{ with .Params.tags }}
+    <div class="tags">
+      {{ range first 4 . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+    </div>
+    {{ end }}
+  </article>
   {{ end }}
-</ul>
+</section>
 {{ end }}
