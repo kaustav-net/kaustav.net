@@ -67,9 +67,11 @@
     hits.forEach(function (hit) {
       var item = hit.item;
       var snippet = getSnippet(item.content, query);
+      var linkTarget = item.external ? ' target="_blank" rel="noopener"' : '';
+      var externalBadge = item.external ? ' <span class="external-badge">↗ External</span>' : '';
       html += '<li class="search-result-item">' +
-        '<a href="' + escapeHtml(item.permalink) + '">' +
-        '<span class="search-result-title">' + escapeHtml(item.title) + '</span>' +
+        '<a href="' + escapeHtml(item.permalink) + '"' + linkTarget + '>' +
+        '<span class="search-result-title">' + escapeHtml(item.title) + externalBadge + '</span>' +
         (item.date ? '<span class="search-result-date">' + item.date + '</span>' : '') +
         '</a>' +
         (snippet ? '<p class="search-result-snippet">' + snippet + '</p>' : '') +

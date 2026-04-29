@@ -1,4 +1,8 @@
 {{ define "main" }}
+{{ if .Params.externalUrl }}
+<script>window.location.href = {{ .Params.externalUrl }};</script>
+<p>Redirecting to <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener">{{ .Params.externalUrl }}</a>...</p>
+{{ else }}
 <article itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post-header">
     <h1 itemprop="headline">{{ .Title }}</h1>
@@ -24,4 +28,5 @@
     {{ end }}
   </footer>
 </article>
-{{ end }}
+{{ end }}{{/* end if externalUrl else */}}
+{{ end }}{{/* end define main */}}
