@@ -42,7 +42,7 @@
 
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
-<body>
+<body{{ if .IsHome }} class="is-home"{{ end }}>
   <header>
     <nav aria-label="Main navigation">
       <a href="{{ "/" | relURL }}" class="site-title">{{ .Site.Title }}</a>
