@@ -4,7 +4,7 @@ title = 'Kaustav Ghosh'
 enableRobotsTXT = true
 
 [params]
-  description = 'Personal tech blog — RTC, WebRTC, Chromium, and more.'
+  description = 'Real-Time Video, BWE, Codecs, and more.'
   author = 'Kaustav Ghosh'
   keywords = ['WebRTC', 'RTC', 'Chromium', 'bandwidth estimation', 'congestion control', 'GCC', 'video engineering']
   images = []

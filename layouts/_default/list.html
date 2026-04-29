@@ -10,6 +10,11 @@
     {{ if not .Params.externalUrl }}<span class="reading-time">· {{ .ReadingTime }} min read</span>{{ end }}
   </div>
   {{ with .Description }}<p class="post-excerpt">{{ . }}</p>{{ end }}
+  {{ with .Params.tags }}
+  <div class="tags">
+    {{ range first 4 . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+  </div>
+  {{ end }}
 </article>
 {{ end }}
 </section>
