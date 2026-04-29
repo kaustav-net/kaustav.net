@@ -10,7 +10,7 @@ enableRobotsTXT = true
   images = []
 
   [params.social]
-    github = 'https://github.com/nickaustav'
+    github = 'https://github.com/kaustav-net'
 
 [markup]
   [markup.highlight]
