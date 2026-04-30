@@ -11,6 +11,8 @@ enableRobotsTXT = true
 
   [params.social]
     github = 'https://github.com/kaustav-net'
+    linkedin = 'https://www.linkedin.com/in/kaustav28/'
+    email = 'kaustav.ghosh28@gmail.com'
 
 [markup]
   [markup.highlight]
